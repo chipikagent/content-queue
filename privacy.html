@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Development-stage privacy notice for Content Queue and its public informational website.">
+  <title>Privacy policy · Content Queue</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #28342e; background: #faf8f4; }
+    body { max-width: 760px; margin: 0 auto; padding: 48px 24px; line-height: 1.65; }
+    nav, footer { font-size: .95rem; } nav a { margin-right: 20px; }
+    a { color: #236448; text-underline-offset: .2em; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; }
+    h2 { margin-top: 32px; line-height: 1.3; }
+    .notice { padding: 16px 20px; border-left: 4px solid #78947d; background: #edf1e9; }
+    main { margin-top: 40px; } footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #d4dcd3; }
+    li { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <nav aria-label="Main navigation"><a href="index.html">About</a><a href="privacy.html" aria-current="page">Privacy policy</a></nav>
+  <main>
+    <h1>Privacy policy</h1>
+    <p>Content Queue · Last updated October 26, 2026</p>
+    <div class="notice"><strong>Development-stage notice.</strong> The application has not launched. This notice distinguishes the public website from the planned private application. It will be reviewed and updated before the application processes live account data.</div>
+    <h2>Who this notice covers</h2>
+    <p>Content Queue is a private project for one crochet creator's own Pinterest account. It is not a service open to public registration. For privacy questions, contact the project operator at <a href="mailto:chipikagent@gmail.com">chipikagent@gmail.com</a>.</p>
+    <h2>This public website</h2>
+    <p>The website consists of static informational pages intended for hosting on GitHub Pages. These pages contain no contact forms, analytics scripts, advertising, tracking pixels, embedded media, or application login. They do not expose the private application's images, messages, publishing queue, or credentials.</p>
+    <p>When the site is served through GitHub Pages, GitHub processes request information, such as IP addresses and technical connection data, under its own <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy Statement</a>. The project does not add its own visitor tracking. Sending an email to the contact address shares the information in that email with the operator and the email service used to handle it.</p>
+    <h2>Planned application data and purposes</h2>
+    <p>The following processing is planned, subject to implementation and Pinterest access approval:</p>
+    <ul>
+      <li><strong>Owner-supplied content:</strong> original images, titles, descriptions, and destination links, used to prepare and publish the Pins requested by the owner.</li>
+      <li><strong>Publishing instructions:</strong> the selected board, approval decisions, and scheduled times, used to ensure that only specifically approved Pins are submitted.</li>
+      <li><strong>Authorization information:</strong> OAuth credentials required to connect the owner's Pinterest account. The application will not request or store the owner's Pinterest password.</li>
+      <li><strong>Operational information:</strong> delivery status and error information necessary to operate the queue and investigate failures. Retention of Pinterest-derived information will be limited to what Pinterest's applicable terms permit; the application is not intended to archive API responses or build a dataset of Pinterest content.</li>
+    </ul>
+    <p>The intended storage location for the private application's data is the operator's Linux server, separate from this public website and its source repository. Implementation details and retention controls will be finalized before launch.</p>
+    <h2>Services involved</h2>
+    <p>Telegram will carry the owner's submitted content and approval messages. Pinterest will receive the content and instructions necessary to create approved Pins. YouTube and Patreon links are intended as destinations selected by the owner; this does not imply access to private data on those services. These services handle data according to their own policies.</p>
+    <p>AI-assisted descriptions and link suggestions are planned but disabled. No AI provider has been selected for this application. Before activating an AI feature, the operator will identify the provider, disclose what owner-supplied content would be sent and its handling, update this notice, and obtain the owner's authorization. Pinterest-derived data will not be used to train or improve AI models.</p>
+    <p>The planned application has no advertising or data-selling function.</p>
+    <h2>Approval, access, and deletion</h2>
+    <p>The owner will review each Pin's content, destination, board, and scheduled time before publication. Connecting the account will require Pinterest authorization. The owner can revoke that authorization through Pinterest's connected-app controls.</p>
+    <p>To request access to, correction of, or deletion of data held by the project, or to request that processing stop, email <a href="mailto:chipikagent@gmail.com">chipikagent@gmail.com</a>. The operator may need to verify that the request comes from the account owner. No fixed retention period is claimed while the application is in development; retention and any backup-deletion limits will be documented before launch.</p>
+    <p>Deleting a local queue entry or disconnecting the application does not automatically remove a Pin already published on Pinterest or messages held by Telegram. Those copies must be managed through the corresponding service.</p>
+    <h2>Changes</h2>
+    <p>This notice will be updated as the implementation is finalized. Material changes to the planned processing, including AI-provider activation, will be brought to the owner's attention before that processing begins. The date above identifies the latest revision.</p>
+  </main>
+  <footer><a href="index.html">About Content Queue</a></footer>
+</body>
+</html>
